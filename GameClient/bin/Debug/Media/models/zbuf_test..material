@@ -1,0 +1,88 @@
+
+material yel
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.866667 0.796079 0 1
+			diffuse 0.866667 0.796079 0 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture gyr.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material yel
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.866667 0.796079 0 1
+			diffuse 0.866667 0.796079 0 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture gyr.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material gre
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0.419608 0.137255 1
+			diffuse 0 0.419608 0.137255 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture gyr.dds
+			}
+		}
+
+	}
+
+}
+
+
+
+material red
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.882353 0 0 1
+			diffuse 0.882353 0 0 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture gyr.dds
+			}
+		}
+
+	}
+
+}
+
+

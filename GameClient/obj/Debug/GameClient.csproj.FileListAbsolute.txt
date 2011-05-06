@@ -1,0 +1,109 @@
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.Properties.Resources.resources
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Documents and Settings\SatikX\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.Properties.Resources.resources
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\Programming\TheGame\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+E:\svn\game_work\GameCore\GameClient\obj\Debug\GameClient.exe
+E:\svn\game_work\GameCore\GameClient\obj\Debug\GameClient.pdb
+E:\svn\game_work\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+E:\svn\game_work\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+E:\svn\game_work\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+E:\svn\game_work\GameCore\GameClient\bin\Debug\GameClient.exe
+E:\svn\game_work\GameCore\GameClient\bin\Debug\GameClient.pdb
+E:\svn\game_work\GameCore\GameClient\bin\Debug\MET.dll
+E:\svn\game_work\GameCore\GameClient\bin\Debug\Mogre.dll
+E:\svn\game_work\GameCore\GameClient\bin\Debug\MOIS.dll
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\MET.dll
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\MHydrax.dll
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\Mogre.dll
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\MogreNewt.dll
+C:\Users\Satik\Desktop\RPG\!Our Game\TheGame\GameCore\GameClient\bin\Debug\MOIS.dll
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\MET.dll
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\MHydrax.dll
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\Mogre.dll
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\MogreNewt.dll
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\bin\Debug\MOIS.dll
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Users\Satik\Desktop\!Our Game\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Users\Satik\Desktop\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+D:\game\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\GameClient.exe
+D:\game\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\GameClient.pdb
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\GameClient.exe
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\GameClient.pdb
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\MET.dll
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\MHydrax.dll
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\Mogre.dll
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\MogreNewt.dll
+D:\game\!Our Game\!Our Game\GameCore\GameClient\bin\Debug\MOIS.dll
+D:\game\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+D:\game\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+D:\game\!Our Game\!Our Game\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\MET.dll
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\MHydrax.dll
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\Mogre.dll
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\MogreNewt.dll
+C:\Documents and Settings\Satikxxx\Plocha\JARG\!Our Game\GameCore\GameClient\bin\Debug\MOIS.dll
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Users\Satik\Desktop\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\sjarg\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\sjarg\JARG\!Our Game\GameCore\GameClient\obj\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\Prehistorik\GameClient\bin\Debug\GameClient.exe
+C:\Users\Satik\Desktop\Prehistorik\GameClient\bin\Debug\GameClient.pdb
+C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\GameClient.exe
+C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\GameClient.pdb

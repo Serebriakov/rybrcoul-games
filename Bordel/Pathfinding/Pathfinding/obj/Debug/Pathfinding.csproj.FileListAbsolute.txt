@@ -1,0 +1,10 @@
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\bin\Debug\Pathfinding.exe
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\bin\Debug\Pathfinding.pdb
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\Pathfinding.Form1.resources
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\Pathfinding.Properties.Resources.resources
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\Pathfinding.csproj.GenerateResource.Cache
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\Pathfinding.exe
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\Pathfinding.pdb
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\obj\Debug\Pathfinding.About.resources
+C:\Users\Satik\Desktop\Pathfinding\Pathfinding\bin\Debug\Pathfinding.exe.config
