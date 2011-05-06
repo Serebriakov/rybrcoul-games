@@ -1,0 +1,21 @@
+material Material.001
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			fragment_program_ref editcursor
+			{
+			}
+
+			texture_unit
+			{
+			}
+		}
+	}
+
+}

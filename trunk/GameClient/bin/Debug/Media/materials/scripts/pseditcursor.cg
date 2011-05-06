@@ -1,0 +1,11 @@
+float4 main_fp(in float3 TexelPos : TEXCOORD0) : COLOR
+{
+    float4 oColor;
+
+    oColor.r = 0.1;
+    oColor.g = 1.0;
+    oColor.b = 0.0;
+    oColor.a = 0.2;
+
+    return oColor;
+}

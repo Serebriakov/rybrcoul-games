@@ -1,0 +1,22 @@
+material somegrass
+{
+  technique
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+      alpha_rejection greater_equal 128
+      vertex_program_ref trygrass_vp
+      {   
+        param_named_auto leavesCenter custom 1     
+        param_named_auto offset custom 2
+      }
+
+      texture_unit
+      {
+        texture grass_02.png
+      }
+    }
+  }
+}
