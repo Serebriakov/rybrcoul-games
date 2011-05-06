@@ -1,0 +1,6 @@
+fragment_program editcursor cg
+{
+	source pseditcursor.cg
+	entry_point main_fp
+	profiles ps_1_1 arbfp1
+}

@@ -1,0 +1,20 @@
+vertex_program trygrass_vp cg
+{
+	source vegetation.cg
+	entry_point mygrass_vp
+	profiles vs_1_1 arbvp1
+
+	default_params
+	{	
+	    param_named_auto worldViewProj worldviewproj_matrix
+	    param_named_auto worldMatrix world_matrix 
+		param_named_auto ambient ambient_light_colour
+		param_named_auto lightPos[0] light_position 0
+		param_named_auto lightPos[1] light_position 1
+		param_named_auto lightDiffuseColour[0] light_diffuse_colour 0
+		param_named_auto lightDiffuseColour[1] light_diffuse_colour 1
+		param_named leavesCenter float4 0 0 0 0
+        param_named offset float4 0 0 0 0  
+	}
+}
+

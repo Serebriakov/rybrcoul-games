@@ -1,0 +1,86 @@
+material Boy-shorts
+{
+	technique
+	{
+		pass
+		{
+
+			specular 0.070000 0.070000 0.070000 1.000000 12.500000
+			texture_unit
+			{
+				texture boy-textura.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Boy-body
+{
+	
+	technique
+	{
+		pass
+		{
+			specular 0.014000 0.014000 0.014000 1.000000 12.500000
+			texture_unit
+			{
+				texture boy_skin_lo.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Boy-shirt
+{
+	
+	technique
+	{
+		pass
+		{
+			specular 0.070000 0.070000 0.070000 1.000000 12.500000
+			texture_unit
+			{
+				texture boy-xxaaaxx.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Boy-eye
+{
+	
+	technique
+	{
+		pass
+		{
+			specular 0.000000 0.000000 0.000000 1.000000 2.500000
+			texture_unit
+			{
+				texture boy_eyeL_lo.jpg
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
+material Boy-hair
+{
+	
+	technique
+	{
+		pass
+		{
+		    alpha_rejection greater_equal 128
+			specular 0.000000 0.000000 0.000000 1.000000 2.500000
+			texture_unit
+			{
+				texture boy-hair.png
+				tex_address_mode wrap
+				filtering trilinear
+			}
+		}
+	}
+}
