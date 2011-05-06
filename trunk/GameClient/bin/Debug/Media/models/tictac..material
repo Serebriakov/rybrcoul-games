@@ -1,0 +1,318 @@
+
+material Material#13
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture GUZ_PRKNA.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#12
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TTT_WIRELINE.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#16
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TLF_BRANA.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#66
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TTT_WIRECROSS.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#11
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TTH_CORR METAL.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#108
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#106
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#105
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#104
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#103
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TLZ_TRAVA_HLINA03.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#17
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture LMT_ZELEZO_TRAM.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#126
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TLH_SERP_KRAJ TRAVA1.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#127
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture TLH_SERP_KRAJ TRAVA2.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#86
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+			specular 0 0 0 10 0
+
+			texture_unit
+			{
+				texture BIK_BETON.DDS
+			}
+		}
+
+	}
+
+}
+
+
+
+material Material#91
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#90
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
+
+material Material#89
+{
+	technique
+	{
+		pass
+		{
+		}
+
+	}
+
+}
+
+
