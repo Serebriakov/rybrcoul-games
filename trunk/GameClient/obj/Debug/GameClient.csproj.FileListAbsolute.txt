@@ -107,3 +107,10 @@ C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\TheGame.Properties.Resou
 C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache
 C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\GameClient.exe
 C:\Users\Satik\Desktop\Prehistorik\GameClient\obj\Debug\GameClient.pdb
+V:\Prehistorik\GameClient\obj\Debug\GameClient.exe
+V:\Prehistorik\GameClient\obj\Debug\GameClient.pdb
+V:\Prehistorik\GameClient\bin\Debug\GameClient.exe
+V:\Prehistorik\GameClient\bin\Debug\GameClient.pdb
+V:\Prehistorik\GameClient\obj\Debug\ResolveAssemblyReference.cache
+V:\Prehistorik\GameClient\obj\Debug\TheGame.Properties.Resources.resources
+V:\Prehistorik\GameClient\obj\Debug\GameClient.csproj.GenerateResource.Cache

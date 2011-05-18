@@ -17,7 +17,7 @@ namespace HelpingClasses
             public static int ScreenWidth = 1024;
             public static int ScreenHeight = 768;
             public static float NearClip = 0.1f;
-            public static float FarClip = 1000f;
+            public static float FarClip = 10000f;
         }
 
         public static class MainLoop
@@ -32,9 +32,12 @@ namespace HelpingClasses
         {
             public static float XScroll = 100;
             public static float YScroll = 100;
+            public static float ZScroll = 10;
             public static float DefaultCamHeight = 256;
             public static float DefaultCamFOV = 90;
             public static float FreeCamSpeed = 10;
+            public static float MinCamHeight = 100;
+            public static float MaxCamHeight = 500;
         }
 
         public static class Land

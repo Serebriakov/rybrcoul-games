@@ -9,10 +9,10 @@ namespace TheGame.Controls
 {
     public static class AnimController
     {
-        public static void SetAnimation(GameActorObject obj, String anim)
+        /*public static void SetAnimation(GameActorObject obj, String anim)
         { 
 
-        }
+        }*/
     }
 
     public class ObjectAnimation
