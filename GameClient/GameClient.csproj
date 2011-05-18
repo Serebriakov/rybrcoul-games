@@ -75,7 +75,6 @@
     <Compile Include="Controls\Menu.cs" />
     <Compile Include="Drawing\Drawing2D.cs" />
     <Compile Include="Drawing\Overlay.cs" />
-    <Compile Include="GameBase\Items.cs" />
     <Compile Include="HelpingClasses\Debug.cs" />
     <Compile Include="HelpingClasses\HighResolutionTimer.cs" />
     <Compile Include="HelpingClasses\Constants.cs" />
@@ -86,7 +85,7 @@
     <Compile Include="Sound\fmod_errors.cs" />
     <Compile Include="GameBase\GameObjects.cs" />
     <Compile Include="HelpingClasses\Helpers.cs" />
-    <Compile Include="Map\MapManager.cs" />
+    <Compile Include="Map\Map.cs" />
     <Compile Include="OgreEngine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -100,6 +99,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

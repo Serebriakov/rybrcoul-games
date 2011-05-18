@@ -57,14 +57,14 @@ namespace GameBase
             this.OgreEngine = OgreEngine;
             World = new GameWorld(OgreEngine);
             GameSettings.LoadFromFile(OgreEngine.exeDir + "game.ini");
-            this.Camera = new PlayerCamera(OgreEngine.mCam, this);
+            this.Camera = new PlayerCamera(this);
         }
     }
 
     public class GameWorld
     {
         public GameObjectList ObjectList = null;
-        public MapManager Map = null;
+        public WorldMap Map = null;
 
         private SceneManager mMgr = null;
         private OgreEngine OgreEngine = null;
@@ -77,6 +77,7 @@ namespace GameBase
             this.mMgr = OgreEngine.mMgr;
         }
 
+        /*
         public SceneNode CreateObject(GameActorObject obj)
         {
             SceneNode node = mMgr.RootSceneNode.CreateChildSceneNode("node" + obj.Id);
@@ -85,7 +86,7 @@ namespace GameBase
             node.SetScale(1f, 1f, 1f);
 
             return node;
-        }
+        }*/
 
         public void Update(float time)
         {
@@ -156,62 +157,42 @@ namespace GameBase
 
     public class PlayerCamera
     {
+        private Vector3 position = Vector3.ZERO;
+        public Vector3 LookAt = Vector3.ZERO;
+
         private Game game = null;
-        private Camera cam = null;
+
         public bool FreeCamera = false;
-        
-        public PlayerCamera(Camera cam, Game g)
+
+        public PlayerCamera(Game g)
         {
-            this.cam = cam;
             this.game = g;
-        }
-
-        public void LookAt(Vector3 p)
-        {
-            cam.LookAt(p);
-        }
-
-        public void Roll(Radian angle)
-        {
-            cam.Roll(angle);
-        }
-
-        public void Yaw(Radian angle)
-        {
-            cam.Yaw(angle);
-        }
-
-        public void Pitch(Radian angle)
-        {
-            cam.Pitch(angle);
+            this.position = new Vector3(100, Constants.PlayerCamera.DefaultCamHeight, 100);
         }
 
         public Vector3 Position
         {
-            get 
-            {
-                return cam.Position;
-            }
+            get { return position; }
 
             set
             {
-                this.cam.Position = value;
+                float h = 1f; // o kolik nad zemi kamera ma zustat
+
+                float y = game.World.Map.GetWorldHeight(value.x, value.z);
+                position = new Vector3(value.x, System.Math.Max(value.y, y + h), value.z);
+                this.Update();
             }
         }
 
-        public Quaternion Orientation
+        public void Update()
         {
-            get
-            {
-                return cam.Orientation;
-            }
-
-            set
-            {
-                this.cam.Orientation = value;
-            }
+            LookAt = new Vector3(position.x, 0, position.z + 1 - Constants.PlayerCamera.MinCamHeight);
         }
-        
+
+        public float Height
+        {
+            get { return this.Position.y; }
+        }
     }
 
     public class GameObject
@@ -345,23 +326,4 @@ namespace GameBase
             SetVisible(false);
         }
     }
-
-    public class GameActorObject : GameSceneObject
-    {
-
-    }
-
-    public class GamePersonObject : GameActorObject
-    {
-
-    }
-
-    public class GamePlayer : GamePersonObject
-    {
-        public Vector3 PlayerFacing;
-
-
-    }
-
-    
 }

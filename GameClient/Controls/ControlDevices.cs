@@ -30,6 +30,7 @@ namespace TheGame.Controls
             mKeyb.Capture();
             mMouse.Capture();
             ProcessPressedKeys(time);
+
             /*
             if (PressedKeys.Contains(MOIS.KeyCode.KC_INSERT))
             {
@@ -227,6 +228,13 @@ namespace TheGame.Controls
                 // pokud neni free, tak tady nic
             }*/
 
+            if (arg.state.Z.rel != 0) // zoom 
+            {
+                Vector3 pos = OgreEngine.mGame.Camera.Position - new Vector3(0,arg.state.Z.rel/120f*Constants.PlayerCamera.ZScroll,0);
+                pos.y = System.Math.Max(System.Math.Min(pos.y, Constants.PlayerCamera.MaxCamHeight), Constants.PlayerCamera.MinCamHeight);
+                OgreEngine.mGame.Camera.Position = pos;
+            }
+
             return true;
         }
 
@@ -236,22 +244,22 @@ namespace TheGame.Controls
             {
                 if (PressedKeys.Contains(MOIS.KeyCode.KC_LEFT))
                 {
-                    OgreEngine.mGame.Camera.Position += new Vector3(Constants.PlayerCamera.XScroll*evt, 0, 0);
+                    OgreEngine.mGame.Camera.Position += new Vector3(-Constants.PlayerCamera.XScroll*evt, 0, 0);
                 }
 
                 if (PressedKeys.Contains(MOIS.KeyCode.KC_RIGHT))
                 {
-                    OgreEngine.mGame.Camera.Position += new Vector3(-Constants.PlayerCamera.XScroll*evt, 0, 0);
+                    OgreEngine.mGame.Camera.Position += new Vector3(Constants.PlayerCamera.XScroll*evt, 0, 0);
                 }
 
                 if (PressedKeys.Contains(MOIS.KeyCode.KC_UP))
                 {
-                    OgreEngine.mGame.Camera.Position += new Vector3(0, 0, Constants.PlayerCamera.YScroll*evt);
+                    OgreEngine.mGame.Camera.Position += new Vector3(0, 0, -Constants.PlayerCamera.YScroll*evt);
                 }
 
                 if (PressedKeys.Contains(MOIS.KeyCode.KC_DOWN))
                 {
-                    OgreEngine.mGame.Camera.Position += new Vector3(0, 0, -Constants.PlayerCamera.YScroll*evt);
+                    OgreEngine.mGame.Camera.Position += new Vector3(0, 0, Constants.PlayerCamera.YScroll*evt);
                 }
             }
             else

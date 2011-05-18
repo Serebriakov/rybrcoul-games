@@ -115,13 +115,12 @@ namespace TheGame
             mGame.Update(d);
 
             mControl.Update(d);
-            UpdateCamera(d);
             OnScreenStats.Update(mWin);
         }
 
         bool FrameEnded(FrameEvent evt)
         {
-            RunEveryFrame(evt.timeSinceLastFrame);
+            
             // fps
             return true;
         }
@@ -134,6 +133,9 @@ namespace TheGame
 
                 anim.animState.AddTime(evt.timeSinceLastFrame * multi); //* Rubikon.Game.Prototypes[anim.activator.MeshName].WalkSpeedanim
             }
+
+            RunEveryFrame(evt.timeSinceLastFrame);
+            UpdateCamera(evt.timeSinceLastFrame);
 
             return true;
         }
@@ -216,8 +218,9 @@ namespace TheGame
         void CreateWorld()
         {
             mGame = new Game(this);
-            mGame.World.Map = new MapManager(this);
+            mGame.World.Map = new WorldMap(this);
             mGame.World.Map.LoadMap("xyz");
+            mGame.Camera.Update();
 
             mMgr.SetShadowUseInfiniteFarPlane(false);
             mMgr.AmbientLight = new ColourValue(0.5f, 0.5f, 0.5f);
@@ -299,11 +302,17 @@ namespace TheGame
         public void UpdateCamera(float time)
         {
             //updateFmodEx();
-            if (mGame.World.Map.Level.mWater != null)
-                mGame.World.Map.Level.mWater.Update(time);
+            if (mGame.World.Map.mWater != null)
+                mGame.World.Map.mWater.Update(time);
 
             if (DEBUG.Active)
                 mCam.PolygonMode = DEBUG.PolygonMode;
+
+            {
+                mGame.Camera.Update();
+                mCam.Position = mGame.Camera.Position;
+                mCam.LookAt(mGame.Camera.LookAt);
+            }
         }
 
         void CreateScene()
@@ -318,10 +327,6 @@ namespace TheGame
 
             //Camera cam = mgr.CreateCamera("Camera");
             mRoot.AutoCreatedWindow.AddViewport(mCam);
-
-            mCam.Position = new Vector3(100, Constants.PlayerCamera.DefaultCamHeight, 100);
-            mCam.LookAt(new Vector3(100, 0, 101));
-            //mCa
 
             mRoot.FrameEnded += new FrameListener.FrameEndedHandler(FrameEnded);
             mRoot.FrameStarted += new FrameListener.FrameStartedHandler(FrameStarted);

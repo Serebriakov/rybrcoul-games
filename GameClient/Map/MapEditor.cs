@@ -19,7 +19,7 @@ namespace TheGame.Map
 
     public class MapEditor
     {
-        private MapLevel Map;
+        private WorldMap Map;
         private OgreEngine OgreEngine;
         private String MapFolder = "";
 
@@ -36,12 +36,12 @@ namespace TheGame.Map
 
         }
 
-        public MapEditor(OgreEngine OgreEngine, MapLevel Map)
+        public MapEditor(OgreEngine OgreEngine, WorldMap map)
         {
             this.OgreEngine = OgreEngine;
-            this.Map = Map;
             SetEditingBrush(20);
             MapFolder = OgreEngine.exeDir + @"Media\terrain\";
+            Map = map;
         }
 
         public void SaveTerrain(bool fastSave)
@@ -237,7 +237,7 @@ namespace TheGame.Map
         {
             if (size < 1) size = 1;
             Mogre.Image image2 = new Mogre.Image();
-            image2.Load("brushsmooth.png", ResourceGroupManager.DEFAULT_RESOURCE_GROUP_NAME);
+            image2.Load("brushsmooth1.png", ResourceGroupManager.DEFAULT_RESOURCE_GROUP_NAME);
             image2.Resize(size, size, Image.Filter.FILTER_BICUBIC);
             EditingBrush = MET.Brush.LoadBrushFromImage(image2);
         }
@@ -336,7 +336,7 @@ namespace TheGame.Map
                     SetEditingBrush((ushort)(EditingBrush.Width * 2));
                 }
 
-                if (arg.key == MOIS.KeyCode.KC_F12)
+                if (arg.key == MOIS.KeyCode.KC_F8)
                 {
                     SaveTerrain(true);
                 }
@@ -351,7 +351,7 @@ namespace TheGame.Map
                     Map.mWater.Position += new Vector3(0, +1, 0);
                 }
 
-                if (arg.key == MOIS.KeyCode.KC_F11)
+                if (arg.key == MOIS.KeyCode.KC_F7)
                 {
                     SaveTerrain(false);
                 }

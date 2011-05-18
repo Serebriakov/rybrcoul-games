@@ -4,7 +4,8 @@
     </StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
-    <ReferencePath>C:\Users\Satik\Desktop\TheGame\GameCore\GameClient\bin\Debug\;C:\Documents and Settings\Satikxxx\Plocha\Unsere Game\tortojs\!Our Game\TheGame\GameCore\GameClient\bin\Debug\</ReferencePath>
+    <ReferencePath>
+    </ReferencePath>
     <PublishUrlHistory>publish\</PublishUrlHistory>
     <InstallUrlHistory>
     </InstallUrlHistory>
